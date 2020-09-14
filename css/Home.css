@@ -1,0 +1,127 @@
+body {
+    overflow-x: hidden;
+}
+
+/*Top Image*/
+#homeBg {
+    height: 537px;
+    width: 100%;
+    filter: brightness(88%);
+}
+
+
+.myContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+  
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    font-size: xx-large;
+}
+
+.hidden1, .hidden2 {
+    display: none;
+}
+
+@font-face {
+    font-family:"Montserrat";
+    src: url("./downloadedFonts/MontserratRegular.ttf") format("truetype");
+}
+
+#welcome {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+}
+
+#restaurantName {
+    font-family: Forte;
+    font-size: 85pt;
+}
+
+#description {
+    /*
+    font-family: Lucida Calligraphy;
+    font-size: 17pt;
+    position: absolute;
+    top: 108%;*/
+
+    font-family: "Crimson Text";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 55px;
+}
+
+
+
+/*header*/
+
+#logo {
+    height: 77px;
+    width: 255px;
+    margin-left: 2px;
+}
+
+#socialMediaIcons {
+    width: 100%;
+    height: auto;
+
+    padding-left: 6pc;
+}
+
+.navbar-nav {
+    margin-left: 5pc;
+}
+
+.nav-link {
+    font-size: 15pt;
+}
+
+.nav-item {
+    padding: 15px;
+}
+
+.fa {
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 4px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #2d2e31;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #2d2e31;
+    color: white;
+}
+
+.fa-instagram {
+    background: #2d2e31;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #2d2e31;
+    color: white;
+}
+
+
+
+

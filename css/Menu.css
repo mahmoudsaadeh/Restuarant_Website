@@ -1,0 +1,301 @@
+/*Top image*/
+#homeBg {
+    height: 537px;
+    width: 100%;
+    filter: brightness(95%);
+}
+
+.myContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+  
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    font-size: xx-large;
+
+    width: 100%;
+    height: auto;
+}
+
+#menuTop {
+    font-family: Montserrat, "Open Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+}
+
+@font-face {
+    font-family:"Kaushan Script";
+    src: url("./downloadedFonts/KaushanScript.ttf") format("truetype");
+}
+
+#menuMiddle {
+    font-family: "Kaushan Script", "Open Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 105px;
+}
+
+#menuBottom {
+    font-family: "Crimson Text";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+
+
+
+
+
+/*Header*/
+#logo {
+    height: 77px;
+    width: 255px;
+    margin-left: 2px;
+}
+
+.navbar-nav {
+    margin-left: 5pc;
+}
+
+.nav-link {
+    font-size: 15pt;
+}
+
+.nav-item {
+    padding: 15px;
+}
+
+.fa {
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 4px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #2d2e31;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #2d2e31;
+    color: white;
+}
+
+.fa-instagram {
+    background: #2d2e31;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #2d2e31;
+    color: white;
+}
+
+
+
+/*Space division*/
+.spacediv {
+    padding: 2pc;
+    max-width: 50%;
+    max-height: 50%;
+    clear: both;
+}
+
+
+
+/*Page Content*/
+.startersContainer {
+    margin-left: 71px;
+    padding: 22px;
+}
+
+.starters {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.startersImage {
+    width: 582px;
+    height: 371px;
+    filter: brightness(81%);
+    margin-right: 25px;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@font-face {
+    font-family:"Lora";
+    src: url("./downloadedFonts/LoraItalicVariableFont.ttf") format("truetype");
+}
+
+.imgText {
+    font-family: Lora, "Open Sans", Arial, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 3vw;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-58%, -60%);
+
+    width: auto;
+    height: auto;
+}
+
+@font-face {
+    font-family:"Montserrat";
+    src: url("./downloadedFonts/MontserratRegular.ttf") format("truetype");
+}
+
+.meal {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #222222;
+
+    text-align: left;
+    vertical-align: text-top;
+    width: 200px;
+}
+
+.ingredients {
+    font-family: "Crimson Text";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #5f6263;
+    
+    text-align: left;
+    width: 225px;
+}
+
+.price {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #949494;
+
+    vertical-align: text-top;
+    text-align: right;
+}
+
+tr {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 97px;
+    height: 27px;
+}
+
+.theFull {
+    color: #756148;
+    background-color: #F4EFE8;
+}
+
+.theFullMeal {
+    color: #7a5626;
+}
+
+.theFullIng {
+    color: #9C948A;
+}
+
+.theFullPrice {
+    color: #8B7A64;
+}
+
+#theFullIngSpan {
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+.fa-star {
+    color: #A58F60;
+}
+
+
+
+
+/*footer*/
+#footerDiv {
+    height: 275px;
+    background-color: #222222;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+}
+
+.footerItems {
+    color: white;
+}
+
+#footerTopItem {
+    font-family: "Crimson Text";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    color: #888888;
+}
+
+#copyright {
+    font-family: Lora, "Open Sans", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #888888;
+}
+
+#footLogo {
+    padding-top: 35px;
+    font-family: forte, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 31px;
+    color: #888888;
+}
+
+.foot-fa {
+    padding: 15px;
+}
+
+
+
+/*Go to top button*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #A58F60;
+    color: white;
+    cursor: pointer;
+}

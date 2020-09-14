@@ -1,0 +1,227 @@
+/*Top image*/
+#homeBg {
+    height: 541px;
+    width: 100%;
+    filter: brightness(71%);
+}
+
+.myContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+  
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    font-size: xx-large;
+
+    width: 100%;
+    height: auto;
+}
+
+@font-face {
+    font-family:"Montserrat";
+    src: url("./downloadedFonts/MontserratRegular.ttf") format("truetype");
+}
+
+#book {
+    font-family: Montserrat, "Open Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    width: auto;
+}
+
+@font-face {
+    font-family:"Kaushan Script";
+    src: url("./downloadedFonts/KaushanScript.ttf") format("truetype");
+}
+
+#reserve {
+    font-family: "Kaushan Script", "Open Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 105px;
+    width: auto;
+}
+
+#description {
+    font-family: "Crimson Text";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    width: auto;
+}
+
+
+
+/*Header*/
+#logo {
+    height: 77px;
+    width: 255px;
+    margin-left: 2px;
+}
+
+.navbar-nav {
+    margin-left: 5pc;
+}
+
+.nav-link {
+    font-size: 15pt;
+}
+
+.nav-item {
+    padding: 15px;
+}
+
+.fa {
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 4px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #2d2e31;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #2d2e31;
+    color: white;
+}
+
+.fa-instagram {
+    background: #2d2e31;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #2d2e31;
+    color: white;
+}
+
+
+
+
+/*Gallery images*/
+.leftImgs {
+    width: 527px;
+    height: 362px;
+    padding: 13pt 4pt 18pt 4pt;
+}
+
+.rightImgs {
+    width: 527px;
+    height: 362px;
+    padding: 13pt 4pt 18pt 4pt;
+}
+
+.imgsContainer {
+    margin-left: 115px;
+    width: auto;
+}
+
+
+/*space div*/
+.spacediv {
+    padding: 3pc;
+    max-width: 50%;
+    max-height: 50%;
+    clear: both;
+}
+
+
+/*footer*/
+#footerDiv {
+    height: 275px;
+    background-color: #222222;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+}
+
+.footerItems {
+    color: white;
+}
+
+#footerTopItem {
+    
+    font-family: "Crimson Text";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    color: #888888;
+}
+
+#copyright {
+    font-family: Lora, "Open Sans", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #888888;
+}
+
+#footLogo {
+    padding-top: 35px;
+    font-family: forte, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 31px;
+    color: #888888;
+}
+
+.foot-fa {
+    padding: 15px;
+}
+
+
+
+
+
+/*Hoverable images*/
+.imgCon {
+    position: relative;
+    float: left;
+}
+ 
+.imgCon .fa-plus-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -55%);
+    -ms-transform: translate(-50%, -55%);
+
+    color: white;
+    font-size: 71px;
+}
+
+.fa-plus-circle {
+    display: none;
+}
+
+
+/*Go to top button*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #A58F60;
+    color: white;
+    cursor: pointer;
+}
+
